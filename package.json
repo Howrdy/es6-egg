@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "A minimal ES6 (ES2015) starter with Webpack.",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --devtool eval --progress --colors --content-base build"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,18 @@
   "bugs": {
     "url": "https://github.com/Hwrdy/es6-egg/issues"
   },
-  "homepage": "https://github.com/Hwrdy/es6-egg#readme"
+  "homepage": "https://github.com/Hwrdy/es6-egg#readme",
+  "devDependencies": {
+    "babel": "^6.3.26",
+    "babel-core": "^6.3.26",
+    "babel-loader": "^6.2.0",
+    "css-loader": "^0.23.1",
+    "extract-text-webpack-plugin": "^0.9.1",
+    "file-loader": "^0.8.5",
+    "html-webpack-plugin": "^1.7.0",
+    "style-loader": "^0.13.0",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0"
+  }
 }
