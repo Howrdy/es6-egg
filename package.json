@@ -1,0 +1,21 @@
+{
+  "name": "es6-egg",
+  "version": "1.0.0",
+  "description": "A minimal ES6 (ES2015) starter with Webpack.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hwrdy/es6-egg.git"
+  },
+  "keywords": [
+    "ES6"
+  ],
+  "author": "Hwrdy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Hwrdy/es6-egg/issues"
+  },
+  "homepage": "https://github.com/Hwrdy/es6-egg#readme"
+}

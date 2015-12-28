@@ -1,2 +1,2 @@
 # es6-egg
-An ES6(ECMAScript 2015) starter with webpack bundle.
+A minimal ES6 (ECMAScript 2015) starter with Webpack bundle.
