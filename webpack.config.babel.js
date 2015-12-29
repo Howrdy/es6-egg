@@ -1,9 +1,9 @@
-var path = require('path');
-var webpack = require('webpack');
-var ExtractTextPlugin = require('extract-text-webpack-plugin');
-var HtmlWebpackPlugin = require('html-webpack-plugin');
+import path from 'path';
+import webpack from 'webpack';
+import ExtractTextPlugin from 'extract-text-webpack-plugin';
+import HtmlWebpackPlugin from 'html-webpack-plugin';
 
-var config = {
+export default {
   entry: ['./app/app.js'],
 
   output: {
@@ -13,7 +13,7 @@ var config = {
 
   module: {
     loaders: [{
-      test: /\.jsx?$/, // JS & JSX
+      test: /\.js$/, // JS & JSX
       exclude: /node_modules/,
       loader: 'babel',
     }, {
@@ -37,5 +37,3 @@ var config = {
   }
 
 };
-
-module.exports = config;
