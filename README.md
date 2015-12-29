@@ -12,10 +12,10 @@ A minimal es6 starter kit with webpack bundle and dev server.
 
 ### Getting Started
 
-####Install 
+####Install
 ```
-$ git clone 
-$ cd MyProject
+$ git clone git@github.com:Hwrdy/simple-es6-webpack-starter.git
+$ cd simple-es6-webpack-starter
 $ npm install
 ```
 
