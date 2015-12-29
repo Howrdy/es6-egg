@@ -15,13 +15,10 @@ var config = {
     loaders: [{
       test: /\.jsx?$/, // JS & JSX
       exclude: /node_modules/,
-      loader: 'babel-loader',
+      loader: 'babel',
     }, {
       test: /\.css$/,
       loader: ExtractTextPlugin.extract("style-loader", "css-loader")
-    }, {
-      test: /\.(png|jpg)$/,
-      loader: 'url-loader?limit=8192'
     }]
   },
 
