@@ -1,4 +1,4 @@
-# es6-webpack-starter
+# simple-es6-webpack-starter
 
 A minimal es6 starter kit with webpack bundle and dev server.
 
